@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.Text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+  flex: 1;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+.messages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.messages li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.Add-button {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.Add-button input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+.Add-button button {
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Add-button button:hover {
+  background-color: #555;
+}
